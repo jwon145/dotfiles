@@ -1,0 +1,1 @@
+supertab.vba: call delete('/tmp_amd/kamen/import/1/jwon145/.vim/doc/supertab.txt')|call delete('/tmp_amd/kamen/import/1/jwon145/.vim/plugin/supertab.vim')

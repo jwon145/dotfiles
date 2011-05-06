@@ -1,0 +1,20 @@
+startup_message off
+
+screen -t irssi irssi
+screen -t cs2041 zsh 
+screen -t cs1927 zsh
+screen -t zsh zsh
+altscreen on
+term screen-256color
+
+#change the hardstatus settings to give an window list at the bottom of the                                                                        
+#screen, with the time and date and with the current window highlighted                                                                            
+#hardstatus alwayslastline
+#hardstatus string '%{= kG}%-Lw%{= kW}%50> %n%f* %t%{= kG}%+Lw%< %{= kG}%-=%c:%s%{-}'
+#hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d-%m %{W}%c %{g}]'
+#caption always "%{+b}%{= Bw}%-Lw%{= cw}%50>%n-%f %t%{-}%+Lw%< %{= Bw}%="
+
+
+hardstatus alwayslastline '%{= w}[%{= G} %H %{= w}]%= %{= w}%-w%{+b r}%n*%t%{-b r}%{w}%+w %=%{= w}%{= w}[ %{B}%0c%{= w} ] [%{c} %d/%m/%y %{= w}]'
+#hardstatus alwayslastline '[%{= G}labtob%{= w}]%= %{= w}%-w%{+b r}%n*%t%{-b r}%{w}%+w %=%{= w}[%{B}%c%{= w}] [%{c}%d/%m/%y%{= w}]'
+#caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-=[jwon145] [%{B}%d/%m/%y%{W}] [%c] "
